@@ -25,10 +25,10 @@ public class TollBooth {
             Vehicle v = new Vehicle(number, type);
 
             int toll = switch (v.type()) {
-                case "bike" : 20;
-                case "car" :50;
-                case "truck" : 150;
-                default : 0;
+                case "bike" -> 20;
+                case "car" -> 50;
+                case "truck" -> 150;
+                default ->  0;
             };
 
             totalToll += toll;
