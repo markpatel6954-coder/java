@@ -1,7 +1,11 @@
 import java.until.Scanner;
-public class minibank{
-    record BankInfo(String name, String accountNumber, double balance) {}
-    enum MenuOPtions {
+public class minibank
+{
+    record BankInfo(String name, String accountNumber, double balance) 
+    {
+    }
+    enum MenuOPtions 
+    {  
        OPEN_ACCOUNT,
             DEPOSIT, 
            WITHDRAW, 
